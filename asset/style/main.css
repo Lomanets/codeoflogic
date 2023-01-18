@@ -1,2 +1,85 @@
 @import url('./normalize.css');
 @import url('./font.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(43, 43, 43, 0.5);
+    padding: 22px 0px;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.header-logo__image {
+    width: 47px;
+    height: 47px;
+}
+
+.header-logo__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    margin-left: 9px;
+}
+
+.header-nav__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header-nav__item {
+    margin-right: 25px;
+}
+
+.header-nav__item:last-child {
+    margin-right: 0;
+}
+
+.header-nav__item a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.header-phone {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
