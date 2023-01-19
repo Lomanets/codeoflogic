@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Poppins";  
-    src: url("../fonts/Inika/Inika-Regular.woff") format("truetype"); 
+    src: url("../fonts/Poppins-Regular.woff") format("truetype"); 
     font-style: normal; 
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Poppins";  
-    src: url("../fonts/Inika/Inika-Bold.woff") format("truetype"); 
+    src: url("../fonts/Poppins-Bold.woff") format("truetype"); 
     font-style: bold; 
     font-weight: 700;
     
