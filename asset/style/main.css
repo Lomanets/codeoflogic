@@ -348,13 +348,13 @@
 
 
 .directions-item {
+    position: relative;
     background: #FFFFFF;
     border-radius: 30px;
     padding: 58px 74px 54px 54px;
     margin-bottom: 64px;
     box-shadow: 15px 15px 0px rgba(118, 165, 250, 0.5);
 }
-
 
 .directions-item__title {
     font-size: 50px;
@@ -368,6 +368,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.directions-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .directions-content__hang {
@@ -462,4 +468,66 @@
 
 .directions-item__image {
     margin-bottom: 21px;
+}
+
+.directions-item__number {
+    position: absolute;
+    right: 41px;
+    bottom: 42px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(43, 43, 43, 0.5);
+}
+
+.python .directions-content {
+    max-width: 572px;
+}
+
+
+.minecraft .directions-content__list {
+    max-width: 532px;
+}
+
+.roblox .directions-content__list {
+    max-width: 481px;
+}
+
+.roblox .directions-content__btn {
+    margin-top: 67px;
+}
+
+.unity .directions-content__list {
+    max-width: 513px;
+}
+
+.unity .directions-content__btn {
+    margin-top: 91px;
+}
+
+.site .directions-content__list,
+.site .directions-content__text 
+{
+    max-width: 512px;
+}
+
+.kiber .directions-content__text {
+    max-width: 458px;
+    margin-bottom: 163px;
+}
+
+.roboto .directions-content__text {
+    max-width: 507px;
+    margin-bottom: 20px;
+}
+
+.roboto .directions-content__text:nth-child(4){
+    margin-bottom: 0px;
+}
+
+.design .directions-content__btn {
+    margin-top: 90px;
 }
