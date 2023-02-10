@@ -531,3 +531,212 @@
 .design .directions-content__btn {
     margin-top: 90px;
 }
+
+.achievement {
+    width: 100%;
+    background-color: #2B2B2B;
+    position: relative;
+    
+}
+
+.achievement-container {
+    position: relative;
+}
+
+
+.achievement-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 54px;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+.achievement-wrapper__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.achievement-wrapper__title {
+    max-width: 588px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 28px;
+    margin-bottom: 38px;
+}
+
+.achievement-wrapper__link {
+    background: #856AFD;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 13px 36px;
+    transition: transform 0.3s;
+}
+
+
+.achievement-wrapper__link:hover {
+    transform: scale(1.05);
+}
+
+.achievement-wrapper__link:active {
+    transform: scale(0.95);
+}
+
+.achievement-bg{
+    background-image: url('../image/gradient.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.works {
+    background: rgba(234, 238, 252, 0.5);
+    padding-top: 120px;
+}
+
+.works-container {
+    background-image: url('../image/question.png');
+    background-position: right 70%;
+    background-size: 235px 379px;
+    background-repeat: no-repeat;
+}
+
+.works-wrapper {
+    max-width: 775px;
+}
+
+.works-wrapper__item {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    align-items: center;
+}
+
+.works-title {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 150px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FC8B35;
+}
+
+.works-wrapper__number {
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 192px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: rgba(133, 106, 253, 0.5);
+}
+
+.works-wrapper__description {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    color: #2B2B2B;
+
+}
+
+.format {
+    background: rgba(234, 238, 252, 0.5);
+    padding-top: 120px;
+    text-align: center;
+}
+
+.format-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    color: #2B2B2B;
+    margin-bottom: 62px;
+}
+
+.format-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.format-individual, .format-group {
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 537px;
+    min-height: 444px;
+}
+
+.format-individual {
+    box-shadow: 15px 15px 0px rgba(133, 106, 253, 0.5);
+}
+
+.format-group {
+    box-shadow: 15px 15px 0px rgba(252, 139, 53, 0.5)
+}
+
+.format-individual__title, .format-group__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.05em;
+    color: #2B2B2B;
+    margin-top: 62px;
+}
+
+.format-indnvidual__text, .format-group__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #2B2B2B;
+    margin: 71px auto 50px auto;
+}
+
+.format-indnvidual__text {
+    max-width: 368px;
+}
+
+.format-group__text {
+    max-width: 313px;
+}
+
+.format-indnvidual__link, .format-group__link {
+    display: inline-block;
+    padding: 15px 51px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    border-radius: 10px;
+}
+
+.format-indnvidual__link {
+    color: #856AFD;
+    border: 1px solid #856AFD;
+}
+
+.format-group__link {
+    color: #FC8B35;
+    border: 1px solid #FC8B35;
+}
