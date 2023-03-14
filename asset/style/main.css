@@ -142,6 +142,7 @@ body {
 }
 
 .header__btn {
+    display: inline-block;
     border: 2px solid #856AFD;
     border-radius: 5px;
     width: 260px;
@@ -149,8 +150,9 @@ body {
     background: transparent;
     font-weight: 400;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 40px;
     text-align: center;
+    text-decoration: none;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     transition: transform 0.3s;
@@ -262,6 +264,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    text-decoration: none;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     transition: transform 0.3s;
@@ -438,13 +441,15 @@ body {
 }
 
 .direction-content__btn-item {
+    display: inline-block;
     width: 262px;
     height: 50px;
     border-radius: 10px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 50px;
     text-align: center;
+    text-decoration: none;
     letter-spacing: 0.05em;
     transition: transform 0.3s;
 }
