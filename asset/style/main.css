@@ -1161,15 +1161,27 @@ body {
     color: rgba(234, 238, 252, 0.5);
 }
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 415px) {
     .container {
         padding: 0 15px
     }
 
-    .header {
-        padding: 0px;
+    .header-nav {
+        display: none;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
     }
     
+    .offer {
+        background-position: -410px;
+    }
+
     .offer-contant__logo {
         width: 100%;
     }

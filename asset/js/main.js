@@ -1,12 +1,31 @@
-'use strict';
+// 'use strict';
 
-const formElement = document.querySelector('.form-item');
-
-formElement.addEventListener('submit', element => {
-    element.preventDefault();
-    const fromData = new FormData(formElement);
-    const phone = fromData.get('phone');
-    const email = fromData.get('email');
-    const comment = fromData.get('comment');
-
-})
+// window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+// formbutton("create", {
+//     action: "https://formspree.io/f/xwkjqwwg",
+//     title: "How can we help?",
+//     fields: [
+//         {
+//             type: "email",
+//             label: "Email:",
+//             name: "email",
+//             required: true,
+//             placeholder: "your@email.com"
+//         },
+//         {
+//             type: "textarea",
+//             label: "Message:",
+//             name: "message",
+//             placeholder: "What's on your mind?",
+//         },
+//         { type: "submit" }
+//     ],
+//     styles: {
+//         title: {
+//             backgroundColor: "gray"
+//         },
+//         button: {
+//             backgroundColor: "gray"
+//         }
+//     }
+// });
