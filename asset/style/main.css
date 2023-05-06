@@ -1180,11 +1180,18 @@ body {
     }
     
     .offer {
-        background-position: 60%;
+        background-position: 20%;
     }
 
-    .offer-contant__logo {
-        width: 100%;
+    .offer-school__logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .offer-school__title {
+        max-width: 100%;
+        font-size: 28px;
+        line-height: 30px;
     }
 
     .offer-example__list {
@@ -1206,7 +1213,8 @@ body {
     }
 
     .directions-header__link {
-        font-size: 12px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .directions-header__test {
@@ -1228,8 +1236,13 @@ body {
         margin-top: 0px;
     }
 
+    .directions-item__wrapper {
+        flex-direction: column-reverse;
+    }
+
     .directions-item__image {
-        display: none;
+        width: 90%;
+        margin-top: 21px;
     }
     
     .direction-content__btn-item {
@@ -1326,6 +1339,10 @@ body {
         margin: 41px auto 30px auto;
     }
 
+    .format-indnvidual__text {
+        max-width: 85%;
+    }
+
     .form-container {
         flex-direction: column;
         row-gap: 30px;
@@ -1338,7 +1355,7 @@ body {
     }
 
     .form-content__title {
-        font-size: 35px;
+        font-size: 26px;
     }
 
     .form-content__item {
