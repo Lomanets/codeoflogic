@@ -46,6 +46,48 @@
                     class="header-lang__item ">en</a>
             </div>
             <a href="#form" class="header__btn">Записаться на пробный урок</a>
+            <img class="header-menu" src="./asset/icons/menu.svg" alt="menu icons">
+        </div>
+        <div class="container-mobile">
+            <div class="mobile-wrapper">
+                <img class="mobile-image" src="./asset/icons/close.svg" alt="close menu">
+                <nav class="mobile-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item"><a href="#directions">Направление</a></li>
+                        <li class="header-nav__item"><a
+                                href="https://drive.google.com/file/d/1i8c16WtEbiDRCAvXbjmexLNIkDAreY8r/view?usp=share_link"
+                                target="_blank" rel="noopener noreferrer">Стоимость</a>
+                        </li>
+                        <li class="header-nav__item"><a href="#achievement">Отзывы</a> </li>
+                    </ul>
+                </nav>
+
+                <div>
+                    <div class="offer-social">
+                        <a class="offer-social__link" href="https://www.instagram.com/tsibenko.school"
+                            target="_blank"><img class="offer-social__item" src="./asset/icons/insta.svg"
+                                alt="insta"></a>
+                        <a class="offer-social__link" href="https://vk.com/tsibenko.school" rel="noopener noreferrer"
+                            target="_blank"><img class="offer-social__item" src="./asset/icons/vk.svg" alt="vk"></a>
+                        <a class="offer-social__link" href="https://vm.tiktok.com/ZS8y16Wgj/" rel="noopener noreferrer"
+                            target="_blank"><img class="offer-social__item" src="./asset/icons/tiktok.svg"
+                                alt="tiktok"></a>
+                        <a class="offer-social__link" href="https://t.me/tatiana_tatats" rel="noopener noreferrer"
+                            target="_blank"><img class="offer-social__item" src="./asset/icons/telegram.svg"
+                                alt="telegram"></a>
+                        <a class="offer-social__link" href="https://wa.me/79183607636" rel="noopener noreferrer"
+                            target="_blank"><img class="offer-social__item" src="./asset/icons/whatsapp.svg"
+                                alt="whatsapp"></a>
+                    </div>
+                    <div class="header-lang">
+                        <a href="tel:+74952550157" class="header-phone">+7 (495) 255-01-57</a>
+                        <a href="./index.html" class="header-lang__item active">ru</a>
+                        <a href="https://tsibenko--school-ru.translate.goog/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=ru&_x_tr_pto=wapp"
+                            class="header-lang__item ">en</a>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -97,7 +139,7 @@
                         <a class="directions-header__link"
                             href="https://docs.google.com/forms/d/e/1FAIpQLSelWqp_DvxaNARFKnwa-W5L8K6vyvlFWBvjrpYru6sK2e9tlg/viewform"
                             rel="noopener noreferrer" target="_blank">Пройти
-                            тест для определения направления</a>
+                            тест</a>
                         <a href=" http://" target="_blank" rel="noopener noreferrer"></a>
                     </div>
                 </div>
@@ -481,7 +523,9 @@
                                 <div class="directions-content__btn">
                                     <a href="#form" class="direction-content__btn-item btn-selection">Записаться на
                                         урок</a>
-                                    <a href="#" class="direction-content__btn-item btn">Индивидуальная программа</a>
+                                    <a href="https://docs.google.com/presentation/d/1sv7jpN0cbK_Og2Wzwq6hEzGyqdUWqsrw/edit#slide=id.p1"
+                                        class="direction-content__btn-item btn" target="_blank"
+                                        rel="noopener noreferrer">Индивидуальная программа</a>
                                 </div>
                             </div>
                             <img class="directions-item__image" src="./asset/image/directions/kg.png"
@@ -574,8 +618,8 @@
                     <p class="achievement-wrapper__text">Результат обучения</p>
                     <h2 class="achievement-wrapper__title">ДОСТИЖЕНИЯ НАШИХ УЧЕНИКОВ</h2>
                     <a class="achievement-wrapper__link"
-                        href="https://www.youtube.com/playlist?list=PLNMXu2vV5smy4N55yaVHMMwB-ZPP-YwvL"
-                        target="_blank">Смотреть
+                        href="https://www.youtube.com/playlist?list=PLNMXu2vV5smy4N55yaVHMMwB-ZPP-YwvL" target="_blank"
+                        rel="noopener noreferrer">Смотреть
                         отзывы</a>
                 </div>
             </div>
@@ -607,14 +651,21 @@
                 <h2 class="format-title">Форматы занятий</h2>
                 <div class="format-wrapper">
                     <div class="format-individual">
-                        <h3 class="format-individual__title">Индивидуальное</h3>
-                        <p class="format-indnvidual__text">Занятие один на один с преподавателем</p>
-                        <a href="#" class="format-indnvidual__link">УЗНАТЬ ПОДРОБНЕЕ</a>
+                        <div class="format-individual__wrapper">
+                            <h3 class="format-individual__title">Индивидуальное</h3>
+                            <p class="format-indnvidual__text format-first">Занятие </p>
+                            <p class="format-indnvidual__text">один на один </p>
+                            <p class="format-indnvidual__text format-last">с преподавателем</p>
+                        </div>
+                        <a href="#form" class="format-indnvidual__link">УЗНАТЬ ПОДРОБНЕЕ</a>
                     </div>
                     <div class="format-group">
-                        <h3 class="format-group__title">Групповое</h3>
-                        <p class="format-group__text">Занятие в группе от 2-х человек</p>
-                        <a href="#" class="format-group__link">УЗНАТЬ ПОДРОБНЕЕ</a>
+                        <div class="format-group__wrapper">
+                            <h3 class="format-group__title">Групповое</h3>
+                            <p class="format-group__text format-first">Занятие в группе</p>
+                            <p class="format-group__text format-last">от 2-х человек</p>
+                        </div>
+                        <a href="#form" class="format-group__link">УЗНАТЬ ПОДРОБНЕЕ</a>
                     </div>
                 </div>
 
@@ -644,8 +695,10 @@
                             name="email" required>
                         <textarea class="form-item__input form-item__comment" placeholder="Комментарий"
                             name="comment"></textarea>
-                        <button type="submit" class="form-item__button">Записаться на бесплатный урок</button>
-                        <p class="form-item__text">Оставляя заявку, <a href="" class="form-item__link">вы принимаете
+                        <button type="submit" class="form-item__button">Получить консультацию</button>
+                        <p class="form-item__text">Оставляя заявку, <a
+                                href="https://docs.google.com/document/d/1G9wRP2UwH-3PB5N2Dr7-WEoll7JIFntvT02MoIqet1M/edit?usp=share_link"
+                                class="form-item__link" target="_blank" rel="noopener noreferrer">вы принимаете
                                 условия
                                 соглашения</a></p>
                     </form>
