@@ -38,11 +38,18 @@ document.querySelector('.header-menu').addEventListener('click', event => {
     }
 });
 
-document.querySelector('.mobile-image').addEventListener('click', event => {
-    if (!mobile.classList.contains('none')) {
+document.querySelector('.mobile-wrapper').addEventListener('click', event => {
+    if (event.target.classList.contains('mobile-image') && !mobile.classList.contains('none')) {
         mobile.classList.add('none');
         mobile.classList.remove('block');
     }
-});
-
+    if (event.target.classList.contains('header-nav__link1')) {
+        mobile.classList.add('none');
+        mobile.classList.remove('block');
+    }
+    if (event.target.classList.contains('header-nav__link3')) {
+        mobile.classList.add('none');
+        mobile.classList.remove('block');
+    }
+})
 
