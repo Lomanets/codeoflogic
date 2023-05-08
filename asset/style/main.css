@@ -194,7 +194,7 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     height: 100%;
-    padding: 50px 15px 70px 15px;
+    padding: 50px 20px 70px 20px;
 }
 
 .mobile-wrapper .offer-social__item {
@@ -205,6 +205,10 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.mobile-nav {
+    padding-top: 50px;
 }
 
 .mobile-nav .header-nav__item a {
@@ -221,6 +225,7 @@ body {
 
 .mobile-nav .header-nav__item {
     margin-right: 0px;
+    margin-bottom: 40px;
 }
 
 .mobile-wrapper .header-lang {
