@@ -395,11 +395,9 @@ body {
     line-height: 114%;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
-    background: #FC8B35;
-    border-radius: 30px;
-    margin: 0 auto;
-    padding: 34px 0;
+    color: #FC8B35;
+    margin: 34px auto;
+    
 }
 
 .directions-header__test {
@@ -410,7 +408,7 @@ body {
     margin: 0 auto;
     padding: 14px 0;
     background: #856AFD;
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 10px;
 }
 
 .directions-header__link {
